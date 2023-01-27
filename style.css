@@ -1,0 +1,258 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0;
+    margin-bottom: 0.2%;
+    
+    /* justify-content: center; */
+}
+.header{
+
+
+height: 240px;
+width:  103%;
+/* left: -112px;
+right: -112px;
+top: 0px; */
+/* background: url('./images/Image_header.jpg');
+ */
+ background-image: linear-gradient(140deg, #9A20E3, #FDE67E);
+}
+
+.main_content{
+    margin-left: 25%;
+}
+
+.nav_bar_box{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_row{
+    height:100%;
+}
+.nav_bar_col1{
+    background-color:#ffffff;
+    height: 100%;
+}
+.nav_buttons{
+   
+    margin: -20%;
+    margin-top: 50%;
+    width: 137%;
+    filter: grayscale(100%);
+}
+
+
+.nav_bottom_button{
+    margin: -20%;
+    margin-top: 15px;
+    width: 137%;
+}
+
+
+
+
+
+
+.avatar{
+
+
+
+    width: 160px;
+    height: 160px;
+    margin-top: -50px;
+    border-radius: 200px;
+    margin-left: 5%;
+    border: 4px solid #FFFFFF;
+
+}
+
+.avtar_name h2{
+    margin-top: 4%;
+}
+
+.btnshare
+{
+    background: #FFFFFF;
+/* Gray/300 */
+
+border: 1px solid #D0D5DD;
+/* Shadow/xs */
+margin-top: 4%;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+
+}
+.btnprof{
+    background: #7F56D9;
+/* Primary/600 */
+margin-top: 10%;
+margin-left: 1%;
+border: 1px solid #7F56D9;
+/* Shadow/xs */
+color: white;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+}
+.blue_star{
+    position: absolute;
+    top: 68px;
+    left: 126px;
+}
+.vector{
+    position: absolute;
+    top: 75px;
+    left: 133px;
+}
+.avtar_images{
+    
+    position: relative;
+    top: 0;
+    left: 0;
+}
+input#emailimag{
+    text-indent: 20px;
+    background-image: url('./images/Icon2.png');
+    background-repeat: no-repeat;
+}
+.avtar_small{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+/* .upload{
+    border: 1px  #000000;
+    border-radius: 12px;
+    
+} */
+.upload_text{
+    margin-left: 34%;
+}
+.upload img{
+    margin-left:50%;
+}
+
+
+.availableforprojects{
+    border-radius: 1.5%;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2), 0 0.1px 1px 0 rgba(0, 0, 0, 0.1);
+    /* border-color: #7F56D9; */
+    background: white;
+    padding: 2%;
+    /* padding-left: 4%; */
+    padding-bottom: 1%;
+}
+.main{
+    background: #FCFCFD;
+}
+.firstform{
+    border-radius: 1.5%;
+    /* border-color: #7F56D9; */
+    background: white;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2), 0 0.1px 1px 0 rgba(0, 0, 0, 0.1);
+    padding: 2%;
+    padding-bottom: 1%;
+    
+}
+.form-label{
+    color: #344054;
+}
+.form-control{
+    color: #0e1523;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.form-check-label{
+    color: #344054;
+    font-weight: 500;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-size: large;
+}
+.form-label{
+    color: #344054;
+    font-weight: 500;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-size: medium;
+}
+#basic-addon3{
+    background: white;
+}
+#exampleFormControlSelect1{
+    font-weight:500; 
+    color:#101828;
+    font:bolder; 
+    font-family: 'Inter';
+}
+/* 
+#message_icon{
+    margin: 300px;
+    padding: 20px;
+} */
+
+.upload{
+    /* box-shadow: 0 1px 0.6px 0 rgba(0, 0, 0, 0.2), 0 0.1px 1px 0 rgba(0, 0, 0, 0.1); */
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: #e5e4e7;
+    box-shadow: #88878a;
+}
+/* .second_nav_items{
+    margin-left: 8%;
+    margin-top: 10%;
+} */
+/* .second_nav_images{ */
+    /* width: 100%; */
+    /* background: none; */
+    /* margin: 10%; */
+/* } */
+.nav_row{
+    margin-top: 25px;
+}
+
+.nav_second_column_image{
+    width:27%;
+}
+.column2_item{
+    margin-top: 7%;
+}
+.col2_items{
+    margin-top: 6%;
+    /* margin-left: 4%; */
+    padding-right: 6%;
+    padding-left: 6%;
+    /* padding-bottom: 0%; */
+    /* margin-bottom: 1%; */
+}
+.col2_items h6{
+    margin-left: -40%;
+    margin-top: 1.9%;
+    font-weight: bold;
+}
+.column2_item{
+    padding: 2%;
+    /* background: #ededed; */
+    /* margin-right: -10%; */
+    margin-bottom: -6.7%;
+    border-radius: 8px;
+    padding-top: 2.5%;
+}
+.column2_item:hover{
+    background: #ededed;
+}
+
+/* .profile_block{
+    align-items: baseline;
+} */
+.ten{
+    background: rgb(216, 215, 215);
+    padding-left: 2.5%;
+    padding-right: 3.2%;
+    padding-bottom: 0.5%;
+    border-radius: 48%
+    /* margin-left:70%; */
+}

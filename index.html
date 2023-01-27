@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +11,24 @@
 
 </head>
 <body>
-    
+
+
     <div class="container-fluid" >
+        <div class="row mobile_navbar" id="mobile_navbar">
+            <div class="col-3 col-md-2 logo">
+                <img src="./images/nav_top.png">
+                
+            </div>
+            <div class="col-6 col-md-8">
+                <h3 style="margin-top:30px; width:100%">Untitled Ui</h3>
+            </div>
+            <div class="col-3 col-md-2 burger">
+                <img class="nav_menu" style="width:70px; height:94%; margin-left: -41%;" src="./images/nav_menu.png">
+            </div>
+        </div>
+
         <div class="row main" >
-           <div class="col-sm-0  col-lg-3 nav_bar_box "style="position:fixed">
+           <div class="d-none d-lg-block col-lg-3 nav_bar_box "style="position:fixed">
                 <div class="row nav_row">
                     <div class="col-2 nav_bar_col1" >
                         <div>
@@ -104,12 +119,12 @@
                 
                 </div>
            </div>
-            <div class="col-sm-12 col-lg-9 main_content">
+            <div id="main_content" class="col-xs-12 col-lg-9 ">
               <div class="row header">
                  
               </div>
               <div class="row" style="margin-bottom: 48px;">
-                <div class="col-md-auto  ">
+                <div class="col-md-3  ">
                     <div class="avtar_images">
                       <img class="avatar" src="./images/avtar.jpeg">
                       <img   class="blue_star" src="./images/blue_star.png">
@@ -117,11 +132,11 @@
                     </div>
                      
                 </div>
-                <div class="col-md-6 avtar_name" >
+                <div class="col-md-5 avtar_name" >
                     <h2>Olivia Rhye</h2>
                     <h6>olivia@untitledui.com</h6>
                 </div> 
-                <div class="col-md-3"  >
+                <div class="col-md-4" style="padding-top: 10.1px; padding-left: 11%;" >
                     
                     <button type="button" class="btn-sm btnshare " ><img src="./images/Icon.png" width="16.67" height="15"/> &nbsp;   Share</button>
                     <button type="button" class="btn-sm btnprof " >View Profile</button>
@@ -191,14 +206,12 @@
 
                         <div class="form-check form-switch">
                             <!-- <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked> -->
-
-                            <!-- Rounded switch -->
                             <label class="switch">
                                 <input type="checkbox" checked>
                                 <span class="slider round"></span>
                               </label>
                             <label class="form-check-label" for="flexSwitchCheckChecked">Available for projects</label>
-                            <div class="form-text" style="color: #475467; margin-left: 4.5%; margin-top: -1.5%;">I'm open an available for for freelance work.</div>
+                            <div class="form-text" style="color: #475467; margin-left: 31px; margin-top: -2%;">I'm open an available for for freelance work.</div>
                         </div>
                         <div class="mb-3">
                             <label for="basic-url" class="form-label">Username</label>
@@ -260,6 +273,10 @@
             </div>
         </div>
     </div>
+
+
+  
+
 
     <!-- <div class="desktop">
     

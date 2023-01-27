@@ -18,14 +18,6 @@ top: 0px; */
  background-image: linear-gradient(140deg, #9A20E3, #FDE67E);
 }
 
-.main_content{
-    margin-left: 25%;
-}
-
-.nav_bar_box{
-    margin: 0;
-    padding: 0;
-}
 
 .nav_row{
     height:100%;
@@ -257,7 +249,22 @@ line-height: 24px;
     /* margin-left:70%; */
 }
 
+/* @media (max-width: 991) {
+    
+.main_content{
+    margin-left: 0;
+}
+} */
 
+@media screen and (min-width: 992px) {
+#main_content{
+    margin-left: 25%;
+
+}
+
+  }
+
+      
 
 
 
@@ -331,3 +338,31 @@ line-height: 24px;
   .slider.round:before {
     border-radius: 50%;
   }
+  #flag_India{
+    width:2%;
+    /* height:3.5%; */
+    border-radius: 70%;
+    /* margin-left: -11%;
+    margin-bottom: -11%; */
+  }
+
+
+
+
+ .mobile_navbar{
+    background-color: #ffffff;
+    margin-bottom: -0.03%;
+    height: 110px;
+    margin-right: -4%;
+ }
+ .mobile_navbar img{
+    width:80; 
+    height:78%;
+    margin-left: 2.5%;
+    margin-top: 0.35%;
+ }
+
+
+ @media screen and (min-width: 993px) {
+    #mobile_navbar { display: none; } 
+ }
